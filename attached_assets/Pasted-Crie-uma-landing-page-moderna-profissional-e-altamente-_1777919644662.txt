@@ -1,0 +1,78 @@
+Crie uma landing page moderna, profissional e altamente persuasiva para um negócio de móveis planejados sob medida.
+
+O objetivo principal da página é converter visitantes em clientes através do WhatsApp.
+
+A página deve ter um design sofisticado, com estética premium, transmitindo confiança, qualidade e exclusividade.
+
+🎯 Estrutura da página:
+
+1. Hero Section (primeira dobra):
+
+* Headline impactante destacando móveis planejados sob medida
+* Subheadline reforçando personalização, qualidade e atendimento diferenciado
+* Botão de CTA com destaque: "Solicitar orçamento"
+* Fundo com imagem elegante de ambiente planejado
+* Inserir ícone de WhatsApp com link direto: https://wa.me/message/SS2WQNCSJY2YF1
+
+2. Seção de Portfólio (slider estilo apresentação):
+
+* Criar um carrossel com 3 imagens (serão anexadas posteriormente)
+* Transições suaves (fade ou slide automático)
+* Estilo visual semelhante a apresentações profissionais
+* Adicionar leve overlay com descrição (ex: Cozinha planejada, Quarto moderno, Ambiente personalizado)
+
+3. Seção "Sobre":
+
+* Texto curto e persuasivo explicando o serviço
+* Foco em benefícios para o cliente (não apenas descrição técnica)
+* Linguagem profissional e envolvente
+
+4. Seção de diferenciais:
+
+* Listar 3 a 4 diferenciais com ícones:
+
+  * Projeto 100% personalizado
+  * Acabamento de alta qualidade
+  * Atendimento próximo ao cliente
+  * Execução com excelência
+
+5. Call To Action (conversão):
+
+* Texto forte incentivando o contato imediato
+* Botão destacado levando para o WhatsApp
+* Frases como:
+
+  * "Transforme seu ambiente hoje mesmo"
+  * "Peça seu orçamento sem compromisso"
+
+6. Footer:
+
+* Inserir ícone com link do Instagram:
+  https://www.instagram.com/inovaremoveis_
+* Reforço de marca e profissionalismo
+
+🎨 Design:
+
+* Estilo moderno, elegante e minimalista
+* Paleta de cores: preto, branco, tons amadeirados ou dourado
+* Tipografia sofisticada
+* Espaçamento bem distribuído (layout clean)
+* Animações suaves (hover, fade, transições)
+
+📱 Responsividade:
+
+* Totalmente responsivo (mobile-first)
+* Botões grandes e acessíveis no mobile
+
+⚡ Performance:
+
+* Carregamento rápido
+* Imagens otimizadas
+
+💡 Extras:
+
+* Adicionar botão flutuante de WhatsApp fixo na tela
+* Microinterações para aumentar percepção de qualidade
+* Foco total em conversão e experiência do usuário
+
+O resultado deve parecer um site de alto padrão, com foco em atrair clientes que valorizam móveis planejados de qualidade.

@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Inovare Móveis Planejados"
+version = "1.0.0"
+id = "artifacts/inovare"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 19475
+
+[services.development]
+run = "pnpm --filter @workspace/inovare run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/inovare", "run", "build" ]
+publicDir = "artifacts/inovare/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "19475"
+BASE_PATH = "/"
