@@ -3,6 +3,7 @@ import useEmblaCarousel from "embla-carousel-react";
 import { motion } from "framer-motion";
 import img1 from "@assets/1_1777919654942.png";
 import img2 from "@assets/2_1777919654942.png";
+import img4 from "@assets/4_1777920169600.png";
 
 const projects = [
   {
@@ -18,7 +19,7 @@ const projects = [
   {
     id: 3,
     title: "Ambiente Personalizado",
-    image: null,
+    image: img4,
   },
 ];
 
