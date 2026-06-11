@@ -67,6 +67,7 @@
   --radius-xl: calc(var(--radius) + 4px);
 }
 
+/* ===== DARK THEME (Default) ===== */
 :root, .dark {
   --background: 0 0% 4%;
   --foreground: 40 20% 95%;
@@ -120,6 +121,63 @@
   --radius: 0.25rem;
 }
 
+/* ===== LIGHT THEME ===== */
+.light {
+  --background: 40 25% 97%;
+  --foreground: 0 0% 10%;
+
+  --border: 35 15% 85%;
+
+  --card: 40 30% 93%;
+  --card-foreground: 0 0% 12%;
+  --card-border: 35 15% 85%;
+
+  --sidebar: 40 30% 93%;
+  --sidebar-foreground: 0 0% 10%;
+  --sidebar-border: 35 15% 85%;
+  --sidebar-primary: 30 70% 45%;
+  --sidebar-primary-foreground: 0 0% 100%;
+  --sidebar-accent: 30 70% 45%;
+  --sidebar-accent-foreground: 0 0% 100%;
+  --sidebar-ring: 30 70% 45%;
+
+  --popover: 0 0% 100%;
+  --popover-foreground: 0 0% 12%;
+  --popover-border: 35 15% 85%;
+
+  --primary: 30 70% 45%;
+  --primary-foreground: 0 0% 100%;
+
+  --secondary: 35 15% 90%;
+  --secondary-foreground: 0 0% 15%;
+
+  --muted: 35 15% 88%;
+  --muted-foreground: 0 0% 40%;
+
+  --accent: 30 70% 45%;
+  --accent-foreground: 0 0% 100%;
+
+  --destructive: 0 70% 50%;
+  --destructive-foreground: 0 0% 100%;
+
+  --input: 35 15% 85%;
+  --ring: 30 70% 45%;
+
+  --chart-1: 30 70% 45%;
+  --chart-2: 30 60% 55%;
+  --chart-3: 30 50% 65%;
+  --chart-4: 30 40% 75%;
+  --chart-5: 30 80% 35%;
+}
+
+/* ===== THEME TRANSITION (1 second delay) ===== */
+.theme-transitioning,
+.theme-transitioning *,
+.theme-transitioning *::before,
+.theme-transitioning *::after {
+  transition: background-color 1s ease, color 1s ease, border-color 1s ease, box-shadow 1s ease, fill 1s ease, stroke 1s ease !important;
+}
+
 body {
   background-color: hsl(var(--background));
   color: hsl(var(--foreground));
@@ -129,6 +187,81 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--app-font-serif);
+}
+
+/* ===== HEADER STYLES ===== */
+.header-top {
+  background: transparent;
+}
+
+.header-scrolled {
+  background: hsl(var(--background) / 0.85);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border-bottom: 1px solid hsl(var(--border) / 0.5);
+  box-shadow: 0 4px 30px hsl(0 0% 0% / 0.1);
+}
+
+/* ===== CHATBOT STYLES ===== */
+.chatbot-trigger {
+  background: linear-gradient(135deg, hsl(var(--card)), hsl(var(--background)));
+}
+
+.chatbot-window {
+  background: hsl(var(--background) / 0.97);
+  backdrop-filter: blur(24px) saturate(180%);
+  -webkit-backdrop-filter: blur(24px) saturate(180%);
+  border: 1px solid hsl(var(--border) / 0.6);
+}
+
+.chatbot-header {
+  background: hsl(var(--card) / 0.7);
+  backdrop-filter: blur(10px);
+}
+
+.chatbot-input-area {
+  background: hsl(var(--card) / 0.5);
+}
+
+.chatbot-messages {
+  scrollbar-width: thin;
+  scrollbar-color: hsl(var(--border)) transparent;
+}
+
+.chatbot-messages::-webkit-scrollbar {
+  width: 4px;
+}
+
+.chatbot-messages::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.chatbot-messages::-webkit-scrollbar-thumb {
+  background: hsl(var(--border));
+  border-radius: 999px;
+}
+
+.chatbot-msg-bot {
+  background: hsl(var(--card));
+  color: hsl(var(--foreground));
+  border: 1px solid hsl(var(--border) / 0.5);
+}
+
+.chatbot-msg-user {
+  background: hsl(var(--primary));
+  color: hsl(var(--primary-foreground));
+}
+
+.chatbot-option-btn {
+  background: hsl(var(--card));
+  color: hsl(var(--primary));
+  border: 1px solid hsl(var(--primary) / 0.3);
+}
+
+.chatbot-option-btn:hover {
+  background: hsl(var(--primary) / 0.15);
+  border-color: hsl(var(--primary) / 0.6);
+  transform: translateY(-1px);
 }
 
 /**
